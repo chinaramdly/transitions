@@ -1,0 +1,25 @@
+#orange
+    .box
+        .minibox
+            width: 200px
+            height: 200px
+            border: 5px solid #de2a2a
+            background-color: #f6ff00
+            transition: 3s
+            &:hover
+                width: 500px
+                height: 500px
+                background-color: #247970
+                border: 3px solid #0d4b4b
+            h1
+                font-size: 33px
+        @media ( max-width: 800px )
+            .minibox
+                width: 600px
+                height: 600px
+                background-color: #ff9d00
+                border: 8px solid #efff14
+                border-radius: 30px 
+                h1
+                    font-size: 60px
+                    color: #ffff
